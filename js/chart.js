@@ -1,5 +1,5 @@
 $( document ).ready(function () {
-    const dataUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTL32TrgEY44hw_5W51-6-NXi-C3VcOjsy38WLtyw-DWP5Ib8auPMFc31yA7ykWkv9n4TXJVw82zdEv/pub?gid=0&single=true&output=csv"
+    const dataUrl = "https://gdocs.pir-test.eu/spreadsheets/d/e/2PACX-1vTL32TrgEY44hw_5W51-6-NXi-C3VcOjsy38WLtyw-DWP5Ib8auPMFc31yA7ykWkv9n4TXJVw82zdEv/pub?gid=0&single=true&output=csv"
     $.get(dataUrl, function( data ) {
         data = $.csv.toArrays(data);
         let dates = [];
