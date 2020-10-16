@@ -88,3 +88,7 @@ body {
         height: 200px;
     }
 }
+
+a {
+    text-decoration: underline;
+}
